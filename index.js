@@ -16,3 +16,10 @@ function inc(n){
 function dec(n){
   return n - 1;
 }
+function makeInt(n){
+  if(n === isNaN){
+    return NaN;
+  }else{
+    return parseInt(n);
+  }
+}
