@@ -21,4 +21,4 @@ function makeInt(a){
     return NaN;
   }else{
   return parseInt(a,10);
-};
+}
